@@ -5,6 +5,7 @@ class Book {
         this.author = author;
         this.pages = pages;
         this.read = read;
+        this.id = crypto.randomUUID();
     }
     info() {
         let read_string;
